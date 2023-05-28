@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  flask-app:
+    image: api-qa-flask
+    restart: always
+    ports:
+      - 5000:5000
+    networks:
+      - flask
+networks:
+    flask:
+        driver: bridge

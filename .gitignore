@@ -1,0 +1,14 @@
+.DS_Store
+.ipynb_checkpoints/*
+__pycache__/*
+.chroma/*
+__pycache__/*
+/.venv
+.venv
+app.log
+.venv
+.chroma
+.idea
+config.py
+sshlaverix.pem
+.env
